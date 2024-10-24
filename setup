@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+sudo apt update && sudo apt upgrade
+sudo apt install tmux \
+                 vim \
+                 htop \
+                 virtualenv \
+                 wget \
+                 curl \
+                 git
+
+. setup_vscode
+. setup_docker
+. setup_chrome
+. setup_clion
+. setup_nvidia
