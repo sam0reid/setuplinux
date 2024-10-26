@@ -7,7 +7,8 @@ sudo apt install tmux \
                  virtualenv \
                  wget \
                  curl \
-                 git
+                 git \
+                 git-lfs
 
 . setup_vscode
 . setup_docker
