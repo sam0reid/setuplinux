@@ -9,7 +9,9 @@ sudo apt install tmux \
                  curl \
                  git \
                  git-lfs \
-                 libx11-dev
+                 libx11-dev \
+                 xorg-dev \
+                 libglu1-mesa-dev
 
 . setup_vscode
 . setup_docker
