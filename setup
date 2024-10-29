@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
 sudo apt update && sudo apt upgrade
-sudo apt install tmux \
-                 vim \
-                 htop \
-                 virtualenv \
-                 wget \
-                 curl \
-                 git \
-                 git-lfs \
-                 libx11-dev \
-                 xorg-dev \
-                 libglu1-mesa-dev
+sudo apt install -y tmux \
+                    vim \
+                    htop \
+                    virtualenv \
+                    wget \
+                    curl \
+                    git \
+                    git-lfs \
+                    libx11-dev \
+                    xorg-dev \
+                    libglu1-mesa-dev
 
 . setup_vscode
 . setup_docker
