@@ -16,5 +16,6 @@ sudo apt install tmux \
 . setup_vscode
 . setup_docker
 . setup_chrome
+. setup_brave
 . setup_clion
 . setup_nvidia
