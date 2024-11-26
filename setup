@@ -12,7 +12,7 @@ sudo apt install -y tmux \
                     libx11-dev \
                     xorg-dev \
                     libglu1-mesa-dev \
-                    xournals
+                    xournal
 
 . setup_vscode
 . setup_docker
