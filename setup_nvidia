@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-sudo apt --purge remove '*nvidia*${550}*'
+sudo apt --purge remove '*nvidia*'
 sudo apt autoremove
-sudo ubuntu-drivers install nvidia:550
+sudo ubuntu-drivers install nvidia:560
 sudo apt install nvtop
 
 # NVIDIA Container Toolkit
