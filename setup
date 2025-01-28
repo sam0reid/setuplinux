@@ -12,8 +12,7 @@ sudo apt install -y tmux \
                     libx11-dev \
                     xorg-dev \
                     libglu1-mesa-dev \
-                    xournal \
-                    fzf           
+                    xournal
 
 . setup_vscode
 . setup_docker
@@ -21,3 +20,4 @@ sudo apt install -y tmux \
 . setup_brave
 . setup_clion
 . setup_nvidia
+- setup_fzf
